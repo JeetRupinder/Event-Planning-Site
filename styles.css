@@ -5,7 +5,23 @@ body {
     background-color: #FFFFFF; 
 }
 }
+/* Media query for tablets */
+@media (min-width: 600px) {
+  body {
+    background-color: #fff;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
 
+/* Media query for desktops */
+@media (min-width: 1024px) {
+  .container {
+    width: 70%;
+  }
+}
 /* Logo container for positioning */
 .logo-container {
     margin-right: 20px; /* Add space between logo and other content */
